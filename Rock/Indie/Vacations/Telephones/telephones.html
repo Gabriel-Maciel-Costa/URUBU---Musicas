@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>URUBU</title>
+
+    <link rel="stylesheet" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Style.css">
+
+    <link rel="icon" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\URUBU.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\URUBU.ico" type="image/x-icon">
+    
+    <h1><a href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\URUBU - MUSICAS.html" id="urubu">URUBU</a></h1>
+
+
+</head>
+
+<body>
+    
+    <div class="retangulo">
+            
+            
+        <div class="search-bar">
+        
+            <input type="text" name="q" placeholder="Oque você quer ouvir, cria?">
+        
+            <button type="submit">Buscar</button>
+        
+        </div>
+        
+    </div>
+
+    <body data-page="Telephones"></body>
+
+    <header>
+        <h2><a id= "Titulo"> Telephones </a> </h2>
+        <h2><a href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\Generos\Rock\Indie\Vacations\Vacations.html">Vacations </a></h2></li>
+    </header>
+    <div class="video-container">
+        <video width="640" height="320" controls>
+            <source src="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\Generos\Rock\Indie\Vacations\Telephones\Vacations - Telephones.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+        </video>
+    </div>
+        </section>
+        <section>
+            <h3>Letra</h3>
+            <div class="letra"></div>
+            <p>Rise with the morning </p>
+            <p>you call to me</p>
+            <p>My thoughts are crawling </p>
+            <p>You're all I see</p>
+            <br>
+            <p>I wish I could live without you</p>
+            <p>But you're a part of me </p>
+            <p>Wherever I go</p>
+            <p>You'll always be next to me</p>
+            <br>
+            <p>Fall into the night </p>
+            <p>as I gaze into you</p>
+            <p>Shine so bright</p> 
+            <p>it's all I do</p>
+            <br>
+            <p>I wish I could live without you</p>
+            <p>But you're a part of me </p>
+            <p>Wherever I go</p>
+            <p>You'll always be next to me</p>
+            <br>
+
+            <p>You'll always be next to me</p>
+            <p>You'll always be next to me</p>
+            <p>You'll always be next to me</p>
+            <p>You'll always be next to me</p>
+
+        </section>
+        
+        <!-- Adicione a tag <video> abaixo -->
+        
+        <!-- Fim da tag <video> -->
+
+    </main>
+
+     <footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const searchInput = document.querySelector('.search-bar input[type="text"]');
+                const searchButton = document.querySelector('.search-bar button');
+        
+                searchButton.addEventListener('click', function () {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    
+                    if (searchTerm === 'Rock' && "rock") {
+                        window.location.href = "Urubu/Rock.html"; 
+
+                    } else if (searchTerm === 'Rap' && "rap") {
+                        window.location.href = "Rap/Rap.html"; 
+                        
+                    } else if (searchTerm === 'vacations' && "Vacations") {
+                        window.location.href = "Vacations/Vacations.html"; 
+
+                    } else if (searchTerm === 'young' && "Young") {
+                        window.location.href = "Vacations/Young/young.html"; 
+
+                    } else if (searchTerm === 'telephones' && "Telephones") {
+                        window.location.href = "Vacations/Telephones/telephones.html"; 
+
+
+                    } else {
+                        alert('Página não encontrada. Tente novamente.');
+                    }
+                });
+            });
+        </script>
+    </footer>
+
+</body>
+
+</html>

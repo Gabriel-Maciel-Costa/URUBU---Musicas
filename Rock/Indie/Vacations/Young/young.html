@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>URUBU</title>
+
+    <link rel="stylesheet" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Style.css">
+
+    <link rel="icon" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\URUBU.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\URUBU.ico" type="image/x-icon">
+    
+    <h1><a href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\URUBU - MUSICAS.html" id="urubu">URUBU</a></h1>
+
+
+</head>
+
+<body>
+    
+    <div class="retangulo">
+            
+            
+        <div class="search-bar">
+        
+            <input type="text" name="q" placeholder="Oque você quer ouvir, cria?">
+        
+            <button type="submit">Buscar</button>
+        
+        </div>
+        
+    </div>
+
+    <body data-page="Young"></body>
+    <header>
+        <h2> <a id= "Titulo"> Young </a> </h2>
+        <h2> <a href="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\Generos\Rock\Indie\Vacations\Vacations.html">Vacations </a></h2></li>
+    </header>
+
+    <div class="video-container">
+        <video width="640" height="320" controls>
+            <source src="C:\Users\Gabriel\Desktop\Estudo e Escrita\HTML\Urubu - Musicas\Generos\Rock\Indie\Vacations\Young\Vacations - Young.mp4" type="video/mp4">
+            Seu navegador não suporta a reprodução de vídeos.
+        </video>
+
+    </div>
+    <main>
+        <section>
+            <h3> Letra </h3>
+            <div class="letra"></div>
+            <p>Another day goes by</p>
+            <p>And where was I?</p>
+            <p>Didn't think I'd still be here</p>
+            <p>Just to make things clear</p>
+            <br>
+            <p>What's the use?</p>
+            <p>I'm not talking sense</p>
+            <p>Call it a ruse</p>
+            <p>On myself</p>
+            <br>
+            <p>I wanted to go</p>
+            <p>I wanted to say</p>
+            <p>All things come to pass</p>
+            <p>With time</p>
+            <p>But I want everything now</p>
+            <p>To be all mine</p>
+            <br>
+            <p>You think it's all over</p>
+            <p>Get up and try again</p>
+            <p>You've got to act your age darling</p>
+            <p>Before you fall back in</p>
+            <br>
+            <p>What's the use?</p>
+            <p>I'm not talking sense</p>
+            <p>Call it a ruse</p>
+            <p>On myself</p>
+            <br>
+            <p>I wanted to go</p>
+            <p>I wanted to say</p>
+            <p>All things come to pass</p>
+            <p>With time</p>
+            <p>But I want everything now</p>
+            <p>To be all mine</p>
+
+        </section>
+        
+    </main>
+
+     <footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const searchInput = document.querySelector('.search-bar input[type="text"]');
+                const searchButton = document.querySelector('.search-bar button');
+        
+                searchButton.addEventListener('click', function () {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    
+                    if (searchTerm === 'Rock' && "rock") {
+                        window.location.href = "Urubu/Rock.html"; 
+
+                    } else if (searchTerm === 'Rap' && "rap") {
+                        window.location.href = "Rap/Rap.html"; 
+                        
+                    } else if (searchTerm === 'vacations' && "Vacations") {
+                        window.location.href = "Vacations/Vacations.html"; 
+
+                    } else if (searchTerm === 'young' && "Young") {
+                        window.location.href = "Vacations/Young/young.html"; 
+
+                    } else if (searchTerm === 'telephones' && "Telephones") {
+                        window.location.href = "Vacations/Telephones/telephones.html"; 
+
+
+                    } else {
+                        alert('Página não encontrada. Tente novamente.');
+                    }
+                });
+            });
+        </script>
+    </footer>
+
+</body>
+
+</html>
